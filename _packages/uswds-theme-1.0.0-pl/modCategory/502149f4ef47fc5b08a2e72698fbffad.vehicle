@@ -1,0 +1,327 @@
+<?php return array (
+  'unique_key' => 'category',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => 
+  array (
+    'Children' => 
+    array (
+      'e2fb55f9cd7df7489ceb8d957bf06865' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 
+        array (
+          0 => 'parent',
+          1 => 'category',
+        ),
+        'class' => 'modCategory',
+        'object' => '{"id":null,"parent":0,"category":"Features","rank":0}',
+        'guid' => 'cd28b5ba14180c8e257da6bb1f0dad59',
+        'native_key' => NULL,
+        'signature' => 'efa2d42ee86a7b79384f56ec9877e700',
+      ),
+      '8aaaa77a6dc1fecf8d3b18903cf1217f' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 
+        array (
+          0 => 'parent',
+          1 => 'category',
+        ),
+        'class' => 'modCategory',
+        'object' => '{"id":null,"parent":0,"category":"Gallery","rank":0}',
+        'guid' => 'ac1bab6073a20d418e308142723cf803',
+        'native_key' => NULL,
+        'signature' => '14eb4cd042145545f8b62db951c37e2e',
+      ),
+      '7a54c7413fb06e799ac2ade5f9e91518' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 
+        array (
+          0 => 'parent',
+          1 => 'category',
+        ),
+        'class' => 'modCategory',
+        'object' => '{"id":null,"parent":0,"category":"Global","rank":0}',
+        'guid' => '6914a9c4190e4a2fade21bfbe75c53d0',
+        'native_key' => NULL,
+        'signature' => 'd160fab8a4482f7fb51523a31596b51e',
+        'related_objects' => 
+        array (
+          'Chunks' => 
+          array (
+            'b3c25c0343f7135b71db58cb04073443' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.global_end_uswds","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<script src=\\"assets\\/components\\/uswds-theme\\/js\\/components.js\\"><\\/script>\\r<\\/body>\\r<\\/html>\\r","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<script src=\\"assets\\/components\\/uswds-theme\\/js\\/components.js\\"><\\/script>\\r<\\/body>\\r<\\/html>\\r"}',
+              'guid' => 'ed59f005491d309766c93973890c5c3c',
+              'native_key' => NULL,
+              'signature' => '4a449121161523f6c4da16aa75626cb1',
+            ),
+            '81c01e5da78c81f2f4ab606be5fe1090' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.global_footer_uswds","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"Footer template = [[++uswds-theme.footer_tpl]]\\n<br>\\n<footer class=\\"bg-dark-primary\\">\\n    <div class=\\"container\\">\\n        <div class=\\"container_inner\\">\\n            <div class=\\"rs-left\\">\\n                <p class=\\"neutral-primary\\">[[++mxt.default_copyright]] [[++mxt.default_slogan]]<\\/p>\\n            <\\/div>\\n            <div class=\\"rs-right\\">\\n                <p><a href=\\"[[~[[*id]]]]#top\\">Back to Top <i class=\\"fa fa-arrow-circle-up\\"><\\/i><\\/a><\\/p>\\n            <\\/div>\\n        <\\/div>\\n    <\\/div>\\n<\\/footer>\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"Footer template = [[++uswds-theme.footer_tpl]]\\n<br>\\n<footer class=\\"bg-dark-primary\\">\\n    <div class=\\"container\\">\\n        <div class=\\"container_inner\\">\\n            <div class=\\"rs-left\\">\\n                <p class=\\"neutral-primary\\">[[++mxt.default_copyright]] [[++mxt.default_slogan]]<\\/p>\\n            <\\/div>\\n            <div class=\\"rs-right\\">\\n                <p><a href=\\"[[~[[*id]]]]#top\\">Back to Top <i class=\\"fa fa-arrow-circle-up\\"><\\/i><\\/a><\\/p>\\n            <\\/div>\\n        <\\/div>\\n    <\\/div>\\n<\\/footer>\\n"}',
+              'guid' => '09971f4c862d38f7c87bb7aa85fc5fd1',
+              'native_key' => NULL,
+              'signature' => 'bbe7d142ba44468efcdd381ed70463be',
+            ),
+            '336a7b2bfd4cfc698f79854a14bcde5f' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.global_header_uswds","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<header class=\\"bg-dark-primary\\" id=\\"top\\">\\r    <div class=\\"container bg-dark-secondary\\">\\r        <div class=\\"container_inner\\">\\r            <div id=\\"logo\\" class=\\"rs-left\\">\\r                [[++mxt.default_theme_img:notempty=`<img src=\\"[[++mxt.default_theme_img]]\\" width=\\"50\\" class=\\"fit\\" alt=\\"[[++site_name]]\\">`]]\\r                <h5>[[++site_name]]<\\/h5>\\r            <\\/div>\\r            <div id=\\"header_meta\\" class=\\"rs-right neutral-primary\\">\\r                <span id=\\"header_phone\\">[[++industrix_phone]]<\\/span>\\r                [[++mxt.social_facebook:notempty=`<a href=\\"[[++mxt.social_facebook]]\\" target=\\"_blank\\"><i class=\\"fa fa-facebook-square\\"><\\/i><\\/a>`]]\\r                [[++mxt.social_twitter:notempty=`<a href=\\"[[++mxt.social_twitter]]\\" target=\\"_blank\\"><i class=\\"fa fa-twitter-square\\"><\\/i><\\/a>`]]\\r            <\\/div>\\r        <\\/div><!-- eof container_inner -->\\r    <\\/div><!-- eof container -->\\r<\\/header>\\r<nav role=\\"navigation\\">\\r    <button id=\\"navToggle\\" class=\\"mobile-show\\" onclick=\\"clickToggle(\'navToggle\')\\"><i class=\\"fa fa-navicon\\"><\\/i> MENU<\\/button>\\r    <ul class=\\"container\\" role=\\"menu\\" aria-label=\\"Main menu\\">[[getResources? &parents=`0` &limit=`0` &depth=`0` &tpl=`tpl.nav_row_industrix` &sortby=`{\\"menuindex\\":\\"ASC\\"}`]]<\\/ul>\\r<\\/nav>\\r","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<header class=\\"bg-dark-primary\\" id=\\"top\\">\\r    <div class=\\"container bg-dark-secondary\\">\\r        <div class=\\"container_inner\\">\\r            <div id=\\"logo\\" class=\\"rs-left\\">\\r                [[++mxt.default_theme_img:notempty=`<img src=\\"[[++mxt.default_theme_img]]\\" width=\\"50\\" class=\\"fit\\" alt=\\"[[++site_name]]\\">`]]\\r                <h5>[[++site_name]]<\\/h5>\\r            <\\/div>\\r            <div id=\\"header_meta\\" class=\\"rs-right neutral-primary\\">\\r                <span id=\\"header_phone\\">[[++industrix_phone]]<\\/span>\\r                [[++mxt.social_facebook:notempty=`<a href=\\"[[++mxt.social_facebook]]\\" target=\\"_blank\\"><i class=\\"fa fa-facebook-square\\"><\\/i><\\/a>`]]\\r                [[++mxt.social_twitter:notempty=`<a href=\\"[[++mxt.social_twitter]]\\" target=\\"_blank\\"><i class=\\"fa fa-twitter-square\\"><\\/i><\\/a>`]]\\r            <\\/div>\\r        <\\/div><!-- eof container_inner -->\\r    <\\/div><!-- eof container -->\\r<\\/header>\\r<nav role=\\"navigation\\">\\r    <button id=\\"navToggle\\" class=\\"mobile-show\\" onclick=\\"clickToggle(\'navToggle\')\\"><i class=\\"fa fa-navicon\\"><\\/i> MENU<\\/button>\\r    <ul class=\\"container\\" role=\\"menu\\" aria-label=\\"Main menu\\">[[getResources? &parents=`0` &limit=`0` &depth=`0` &tpl=`tpl.nav_row_industrix` &sortby=`{\\"menuindex\\":\\"ASC\\"}`]]<\\/ul>\\r<\\/nav>\\r"}',
+              'guid' => '506dde1ccf00b1234d88359487d5f159',
+              'native_key' => NULL,
+              'signature' => '20ca79b9c2beed0f1eb63ec05a8b1dbc',
+            ),
+            '4a5a5e5b427c30536f180cd30801cd38' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.global_start_uswds","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<!DOCTYPE html>\\r<html lang=\\"en\\">\\r<head>\\r    <base href=\\"[[!++site_url]]\\" \\/>\\r    \\r    <!-- You have loaded Theme [[++mxt.theme]] -->\\r    <!-- You have Selected Content Template \\"[[*content_tpl]]\\" -->\\r    <meta charset=\\"UTF-8\\">\\r    <meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1.0\\">\\r    <meta name=\\"description\\" content=\\"[[*description]]\\">\\r\\r    <title>[[*longtitle:default=`[[*pagetitle]]`]] - [[++site_name]]<\\/title>\\r\\r    <link rel=\\"stylesheet\\" href=\\"assets\\/components\\/uswds-theme\\/css\\/main.css\\" type=\\"text\\/css\\">\\r    <link rel=\\"stylesheet\\" href=\\"assets\\/components\\/uswds-theme\\/css\\/google-fonts.css\\" type=\\"text\\/css\\">\\r\\r<\\/head>\\r<body>\\r","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<!DOCTYPE html>\\r<html lang=\\"en\\">\\r<head>\\r    <base href=\\"[[!++site_url]]\\" \\/>\\r    \\r    <!-- You have loaded Theme [[++mxt.theme]] -->\\r    <!-- You have Selected Content Template \\"[[*content_tpl]]\\" -->\\r    <meta charset=\\"UTF-8\\">\\r    <meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1.0\\">\\r    <meta name=\\"description\\" content=\\"[[*description]]\\">\\r\\r    <title>[[*longtitle:default=`[[*pagetitle]]`]] - [[++site_name]]<\\/title>\\r\\r    <link rel=\\"stylesheet\\" href=\\"assets\\/components\\/uswds-theme\\/css\\/main.css\\" type=\\"text\\/css\\">\\r    <link rel=\\"stylesheet\\" href=\\"assets\\/components\\/uswds-theme\\/css\\/google-fonts.css\\" type=\\"text\\/css\\">\\r\\r<\\/head>\\r<body>\\r"}',
+              'guid' => '1e278ad28b6c8e6533dc6e58261a5f34',
+              'native_key' => NULL,
+              'signature' => '8f3ac47d72bb3f24c4cc84761922d68d',
+            ),
+          ),
+        ),
+      ),
+      'fd24bddc5b3525f04e8aadcf84204fdb' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 
+        array (
+          0 => 'parent',
+          1 => 'category',
+        ),
+        'class' => 'modCategory',
+        'object' => '{"id":null,"parent":0,"category":"Grid","rank":0}',
+        'guid' => 'abd166421a8444af161029f4a6cfeb0b',
+        'native_key' => NULL,
+        'signature' => 'ab27231a2429560e7cb41339f27071ad',
+      ),
+      'f95e38facb8755ee7eef5aea4236399f' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 
+        array (
+          0 => 'parent',
+          1 => 'category',
+        ),
+        'class' => 'modCategory',
+        'object' => '{"id":null,"parent":0,"category":"Listing","rank":0}',
+        'guid' => '377ffe7a1cdaec8794dd3968a59513bc',
+        'native_key' => NULL,
+        'signature' => 'f23aa11274c9c9fe0b41c12e2413d747',
+      ),
+      'c47a33b04181b8216669afceed3c9698' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 
+        array (
+          0 => 'parent',
+          1 => 'category',
+        ),
+        'class' => 'modCategory',
+        'object' => '{"id":null,"parent":0,"category":"Page","rank":0}',
+        'guid' => '8be9f3a0aa11c2c3bd4d3ef3c8989ed4',
+        'native_key' => NULL,
+        'signature' => '6537ec1bfdafc2c1cd6fc464da8df3e3',
+        'related_objects' => 
+        array (
+          'Chunks' => 
+          array (
+            '19191fbea241ab34c11c23644b57feea' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.page_content_uswds","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"\\r<main role=\\"main\\" class=\\"container\\">\\r\\r    \\r<\\/main>\\r","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"\\r<main role=\\"main\\" class=\\"container\\">\\r\\r    \\r<\\/main>\\r"}',
+              'guid' => '1b87d7a500e8e782c6eb42603762f87f',
+              'native_key' => NULL,
+              'signature' => '79f1d5dfdb772ae0f0fa59f8f623681c',
+            ),
+            '005c9a35268e4b01d8792c9797d9b314' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.page_end_uswds","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[$mxt.global_end_uswds]]\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[$mxt.global_end_uswds]]\\n"}',
+              'guid' => '1f722c5be70fa2aad108f6748bd23a3d',
+              'native_key' => NULL,
+              'signature' => '1662aa65d5c1442eb02f2966e8e16869',
+            ),
+            '230d24647ed115aacf15a8d0480da5a1' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.page_footer_uswds","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[$mxt.global_footer_uswds]]\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[$mxt.global_footer_uswds]]\\n"}',
+              'guid' => '31b8d35a3f43db6367959c52e2b3fd17',
+              'native_key' => NULL,
+              'signature' => 'fae7d1016480897e85f09ed0f8d398e7',
+            ),
+            '673d2803b40c6028ad02a52f5f898235' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.page_header_uswds","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[$mxt.global_header_uswds]]\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[$mxt.global_header_uswds]]\\n"}',
+              'guid' => '37774b1244f89f88cec858dd4a27a64e',
+              'native_key' => NULL,
+              'signature' => '4214d16a069ca50039fe23e0983562a8',
+            ),
+            'b113fc8e20cfbf2d5fbfd162de93670d' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.page_start_uswds","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[$mxt.global_start_uswds]]\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[$mxt.global_start_uswds]]\\n"}',
+              'guid' => 'd30b5c2703fc7869c8c23777d065d518',
+              'native_key' => NULL,
+              'signature' => '59886bd1c576bc9b75f5d8b10b9633e1',
+            ),
+          ),
+        ),
+      ),
+      'fc8b79bb17308194b7f46ee3e20c90fc' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 
+        array (
+          0 => 'parent',
+          1 => 'category',
+        ),
+        'class' => 'modCategory',
+        'object' => '{"id":null,"parent":0,"category":"TPLs","rank":0}',
+        'guid' => '15f4eccf5155b31da6dc9f7ca3965a0e',
+        'native_key' => NULL,
+        'signature' => 'd9ffd876305dba21134a5c985667260d',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Children' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'parent',
+        1 => 'category',
+      ),
+    ),
+    'Snippets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Chunks' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Templates' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'templatename',
+    ),
+    'TemplateVars' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Plugins' => 
+    array (
+      'unique_key' => 'name',
+      'preserve_keys' => false,
+      'update_object' => true,
+      'related_objects' => true,
+      'related_object_attributes' => 
+      array (
+        'PluginEvents' => 
+        array (
+          'preserve_keys' => true,
+          'update_object' => false,
+          'unique_key' => 
+          array (
+            0 => 'pluginid',
+            1 => 'event',
+          ),
+        ),
+      ),
+    ),
+  ),
+  'namespace' => 'uswds-theme',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"uswds-theme-1.0.0-pl\\/modCategory\\/502149f4ef47fc5b08a2e72698fbffad.sample_content.resolver","type":"php","name":"sample_content"}',
+    ),
+    1 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"uswds-theme-1.0.0-pl\\/modCategory\\/502149f4ef47fc5b08a2e72698fbffad\\/1\\/","target":"return MODX_ASSETS_PATH . \'components\\/\';","name":"uswds-theme"}',
+    ),
+    2 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"uswds-theme-1.0.0-pl\\/modCategory\\/502149f4ef47fc5b08a2e72698fbffad\\/2\\/","target":"return MODX_CORE_PATH . \'components\\/\';","name":"uswds-theme"}',
+    ),
+    3 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"uswds-theme-1.0.0-pl\\/modCategory\\/502149f4ef47fc5b08a2e72698fbffad.gpm.resolve.resources.resolver","type":"php","name":"gpm.resolve.resources"}',
+    ),
+    4 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"uswds-theme-1.0.0-pl\\/modCategory\\/502149f4ef47fc5b08a2e72698fbffad.sample_settings.resolver","type":"php","name":"sample_settings"}',
+    ),
+    5 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"uswds-theme-1.0.0-pl\\/modCategory\\/502149f4ef47fc5b08a2e72698fbffad.config.resolver","type":"php","name":"config"}',
+    ),
+  ),
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'a6934e21dbfde51884eed40c64795895',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => '502149f4ef47fc5b08a2e72698fbffad',
+  'native_key' => NULL,
+  'object' => '{"id":null,"parent":0,"category":"U.S. Web Design Standards Theme","rank":0}',
+);

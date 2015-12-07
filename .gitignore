@@ -1,4 +1,5 @@
 _site/
+_build/assets/*
 .sass-cache/
 .DS_store
 .*.swp
@@ -15,3 +16,5 @@ core/packages/*
 core/xpdo/*
 core/model/*
 core/error/*
+core/components/mxt/*
+core/components/getresources/*

@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'uswds-theme',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '17728bee89fd5bc990d5145904b85d1e',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '203d1a61b21e759b686707de88269126',
+  'native_key' => 'uswds-theme.footer_tpl',
+  'object' => '{"key":"uswds-theme.footer_tpl","value":"big","xtype":"textfield","namespace":"uswds-theme","area":"default","editedon":null}',
+);

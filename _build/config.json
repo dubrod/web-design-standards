@@ -1,0 +1,165 @@
+{
+  "name": "U.S. Web Design Standards Theme",
+  "lowCaseName": "uswds-theme",
+  "description": "U.S. Web Design Standards Theme for MODX",
+  "author": "Wayne Roddy",
+  "version": "1.0.0",
+  "package": {
+      "elements": {
+          "chunks": [
+
+            {
+              "name": "mxt.global_end_uswds",
+              "file": "global/mxt.global_end_uswds.html",
+              "category": "Global"
+            },
+            {
+              "name": "mxt.global_footer_uswds",
+              "file": "global/mxt.global_footer_uswds.html",
+              "category": "Global"
+            },
+            {
+              "name": "mxt.global_header_uswds",
+              "file": "global/mxt.global_header_uswds.html",
+              "category": "Global"
+            },
+            {
+              "name": "mxt.global_start_uswds",
+              "file": "global/mxt.global_start_uswds.html",
+              "category": "Global"
+            },
+            {
+              "name": "mxt.page_content_uswds",
+              "file": "page/mxt.page_content_uswds.html",
+              "category": "Page"
+            },
+            {
+              "name": "mxt.page_end_uswds",
+              "file": "page/mxt.page_end_uswds.html",
+              "category": "Page"
+            },
+            {
+              "name": "mxt.page_footer_uswds",
+              "file": "page/mxt.page_footer_uswds.html",
+              "category": "Page"
+            },
+            {
+              "name": "mxt.page_header_uswds",
+              "file": "page/mxt.page_header_uswds.html",
+              "category": "Page"
+            },
+            {
+              "name": "mxt.page_start_uswds",
+              "file": "page/mxt.page_start_uswds.html",
+              "category": "Page"
+            }
+        ],
+          "categories": [
+            {
+              "name": "Features"
+            },
+            {
+              "name": "Gallery"
+            },
+            {
+              "name": "Global"
+            },
+            {
+              "name": "Grid"
+            },
+            {
+              "name": "Listing"
+            },
+            {
+              "name": "Page"
+            },
+            {
+              "name": "TPLs"
+            }
+          ]
+      },
+
+      "resources": [
+        {
+            "pagetitle": "Home",
+            "longtitle": "Home",
+            "alias": "index",
+            "template": "MX Template",
+            "isfolder": 0,
+            "published": 1,
+            "setAsHome": 1,
+            "content_type": 1,
+            "tvs": [
+              {
+                "name": "content_tpl",
+                "value": "grid"
+              },
+              {
+                "name": "body_tpl",
+                "value": "page"
+              },
+              {
+                "name": "page_icon",
+                "value": "fa-home"
+              },
+              {
+                "name": "page_img",
+                "value": ""
+              },
+              {
+                "name": "fpost_ids",
+                "value": ""
+              },
+              {
+                "name": "hero_banner",
+                "value": ""
+              },
+              {
+                "name": "carousel_ids",
+                "value": ""
+              },
+              {
+                "name": "slider_ids",
+                "value": ""
+              },
+              {
+                "name": "listing_ids",
+                "value": ""
+              },
+              {
+                "name": "listbyparent",
+                "value": ""
+              }
+            ]
+        }
+      ],
+
+      "systemSettings": [{
+            "key": "footer_tpl",
+            "type": "textfield",
+            "value": "big"
+        }]
+  },
+  "dependencies": [
+      {
+        "name": "mxt",
+        "version": ">=1.2.1"
+      },
+      {
+        "name": "getresources",
+        "version": ">=1.6.1"
+      }
+  ],
+  "build": {
+    "readme": "docs/index.md",
+    "license": "docs/license.md",
+    "changelog": "docs/changelog.md",
+    "setupOptions": {
+      "source": "setup.options.php"
+    },
+    "resolver": {
+      "before": ["sample_content.php"],
+      "after": ["sample_settings.php", "config.php"]
+    }
+  }
+}
