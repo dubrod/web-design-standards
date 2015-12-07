@@ -2,3 +2,16 @@ _site/
 .sass-cache/
 .DS_store
 .*.swp
+ht.access
+index.php
+config.core.php
+connectors/*
+core/cache/*
+core/config/*
+core/docs/*
+core/lexicon/*
+manager/*
+core/packages/*
+core/xpdo/*
+core/model/*
+core/error/*
